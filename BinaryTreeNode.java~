@@ -1,0 +1,20 @@
+// Kabelo's Binary Tree
+// 10/04/2023
+// Kabelo Mbayi
+
+public class Node<Account>
+{
+   Account account;
+   Node<Account> left;
+   Node<Account> right;
+   
+   public Node (Account account)
+   {
+      this.account = account;
+      this.left = null;
+      this.right = null;
+   }
+   
+   Node<Account> getLeft () { return left; }
+   Node<Account> getRight () { return right; }
+}
